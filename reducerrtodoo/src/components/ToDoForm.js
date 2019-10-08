@@ -24,7 +24,7 @@ export default function ToDoForm({dispatch}){
      <div>
        <form>
          <label>
-           To DO:
+           What do I need to do? :
          </label>
          <input 
          type='text'
