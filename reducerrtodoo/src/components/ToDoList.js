@@ -3,8 +3,8 @@ import ToDo from './ToDo';
 import ToDoForm from './ToDoForm';
 import {reducer, initialState} from '../reducers/Reducer'
 
-    function ToDoList(){
-  const [state,dispatch] = useReducer(reducer,initialState);
+  function ToDoList(){
+    const [state,dispatch] = useReducer(reducer,initialState);
   return(
     <div>
       {state.map(todo => {

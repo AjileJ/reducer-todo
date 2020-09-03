@@ -12,9 +12,7 @@ const completedTodo = event => {
   return(
     <div
     onClick={completedTodo}
-    style={{textDecoration: todo.completed ? 'line-through' : ''}}
-    
-    >
+    style={{textDecoration: todo.completed ? 'line-through' : ''}}> 
     <p>{todo.item}</p>
     </div>
   )
